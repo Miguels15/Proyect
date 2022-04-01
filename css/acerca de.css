@@ -171,3 +171,61 @@ body{
     }
 }
 
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    #info{
+        position: relative;
+        bottom: 10vh;
+    }
+
+    .informacion{
+        position: relative;
+        bottom: 8vh;
+    }
+    
+    .informacion2{
+        position: relative;
+        bottom: 4vh;
+    }
+
+    .informacion2 p{
+        width: 450px;
+        height: 100px;
+    }
+
+    .link{
+        position: relative;
+        width: 250px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 1180px) and (min-width: 820px){
+    #info{
+        position: relative;
+        bottom: 15vh;
+    }
+
+    .informacion {
+        position: relative;
+        bottom: 10vh;
+    }
+
+    #calocho{
+        position: relative;
+        bottom: 2vh;
+        width: 200px;
+        height: 170px;
+    }
+
+    .informacion2{
+        position: relative;
+        bottom: 6vh;
+    }
+
+    .informacion2 p{
+        width: 550px;
+        height: 80px;
+    }
+}
+
+
