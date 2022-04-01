@@ -1,0 +1,365 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #FAEBE0;
+  }
+
+  .contact_form{  
+    width: 460px; 
+    float: left;
+    display: block;
+    margin-left: 45px;
+    height: auto;
+    border-radius: 10px;  
+    margin-right: 25px;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;  
+    margin-bottom: 15px;
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+
+  }
+  .container-portada{
+    max-width: 1300px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../img/Finca2\ resized.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+}
+
+
+.portada h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.portada p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+}
+  .maps{
+    margin-top: 75px;
+  }
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #C3E5AE; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #C3E5AE; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+    resize: none;
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  .enviar{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #2A7E46; 
+    border-color: #2A7E46; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  .enviar p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #36A172;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #CEAB93;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #AD8B73; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #C1AC95;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #C1AC95;
+  }
+  
+  button:hover{
+    background-color: #CEAB93;
+    border-color: #CEAB93;
+    transition: all ease-in-out 1s;
+
+    }
+    @media screen and (max-width: 900px){
+      .contact_form{
+        width: 90%; 
+        display: block;
+        height: 95vh;
+        border-radius: 10px;  
+        margin-top: 50px;
+        padding-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 20px;  
+        margin-bottom: 50px;
+        background-color: #fbfbfb; 
+      }
+      input{
+        background-color: #fbfbfb; 
+        width: 90%; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #C3E5AE; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+      }
+      
+      textarea{
+        background-color: #fbfbfb; 
+        width:  90%; 
+        height: 150px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #C3E5AE; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+        resize: none;
+      }
+      .enviar{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: #2A7E46; 
+        border-color: #2A7E46; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 90%;   
+        cursor: pointer;
+      }
+      .mapa{
+        width: 85%;
+        height: 85vh;
+        position: relative;
+        display: block;
+        margin: auto;
+
+      }
+  }
+  @media screen and (max-width: 900px){
+    .contact_form{
+      width: 90%; 
+      display: block;
+      height: 95vh;
+      border-radius: 10px;  
+      margin-top: 50px;
+      padding-top: 15px;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-bottom: 20px;  
+      margin-bottom: 50px;
+      background-color: #fbfbfb; 
+    }
+    input{
+      background-color: #fbfbfb; 
+      width: 90%; 
+      height: 40px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #C3E5AE; 
+      margin-top: 10px;  
+      padding-left: 10px;
+      margin-bottom: 20px; 
+    }
+    
+    textarea{
+      background-color: #fbfbfb; 
+      width:  90%; 
+      height: 150px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #C3E5AE; 
+      margin-top: 10px;  
+      padding-left: 10px;
+      margin-bottom: 20px; 
+      padding-top: 15px; 
+      resize: none;
+    }
+    .enviar{
+      height: 45px; 
+      padding-left: 5px;
+      padding-right: 5px;   
+      margin-bottom: 20px; 
+      margin-top: 10px;   
+      text-transform: uppercase;
+      background-color: #2A7E46; 
+      border-color: #2A7E46; 
+      border-style: solid; 
+      border-radius: 10px;  
+      width: 90%;   
+      cursor: pointer;
+    }
+    .mapa{
+      width: 85%;
+      height: 85vh;
+      position: relative;
+      display: block;
+      margin: auto;
+
+    }
+}
+  @media screen and (max-width: 640px){
+    .contact_form{
+      width: 90%; 
+      display: block;
+      height: 120vh;
+      border-radius: 10px;  
+      margin-top: 50px;
+      padding-top: 15px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 50px;
+      background-color: #fbfbfb; 
+    }
+    input{
+      background-color: #fbfbfb; 
+      width: 90%; 
+      height: 40px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #C3E5AE; 
+      margin-top: 10px;  
+      padding-left: 10px;
+      margin-bottom: 20px; 
+    }
+    
+    textarea{
+      background-color: #fbfbfb; 
+      width:  90%; 
+      height: 150px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #C3E5AE; 
+      margin-top: 10px;  
+      padding-left: 10px;
+      margin-bottom: 20px; 
+      padding-top: 15px; 
+      resize: none;
+    }
+    .enviar{
+      height: 45px; 
+      padding-left: 5px;
+      padding-right: 5px;   
+      margin-bottom: 20px; 
+      margin-top: 10px;   
+      text-transform: uppercase;
+      background-color: #2A7E46; 
+      border-color: #2A7E46; 
+      border-style: solid; 
+      border-radius: 10px;  
+      width: 90%;   
+      cursor: pointer;
+    }
+    .mapa{
+      width: 85%;
+      height: 85vh;
+      position: relative;
+      display: block;
+      margin: auto;
+
+    }
+}
+
