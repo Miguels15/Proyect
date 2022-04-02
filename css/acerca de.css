@@ -107,9 +107,38 @@ body{
     box-shadow: 7px 5px 5px black;
 }
 
+@media only screen and (max-width: 653px) and (min-width: 280px){
+    #info{
+        left: 15%;
+        bottom: 100px;
+    }
+    
+    .informacion{
+        bottom: 80px;
+        left: 5%;
+        width: 200px;
+        height: 100px;
+    }
 
+    #calocho{
+        bottom: 7vh;
+        left: 15%;
+    }
+    .informacion2 p{
+        top: 175vh;
+        right: 2%;
+        width: 220px;
+        height: 130px;
+    }
 
-@media screen and (max-width: 640px) and (min-width: 300px){
+    .link{
+        position: relative;
+        top: 130vh;
+        left: 2%;
+    }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 300px){
     .container-portada{
         width: 100%;
     }
@@ -120,20 +149,17 @@ body{
     }
 
     #info{
-        position: relative;
         left: 23%;
         bottom: 100px;
     }
 
     .informacion{
-        position: relative;
         left: 8%;
         width: 70%;
         bottom: 50px;
     }
 
     #calocho{
-        position: relative;
         left: 23%;
         bottom: 33vh;
     }
@@ -147,7 +173,27 @@ body{
     }
 
     .link{
-        position: relative;
+        top: 130vh;
+        left: 15%;
+    }
+}
+
+
+
+@media only screen and (max-width: 720px) and (min-width: 540px){
+    #info{
+        left: 30%;
+    }
+
+    .informacion{
+        bottom: 50px;
+    }
+
+    #calocho{
+        left: 30%;
+    }
+
+    .link{
         top: 130vh;
         left: 15%;
     }
@@ -166,8 +212,8 @@ body{
 
     .link{
         position: relative;
-        top: 106vh;
-        left: 16%;
+        top: 105vh;
+        left: 15%;
     }
 }
 
@@ -229,3 +275,55 @@ body{
 }
 
 
+@media only screen and (max-width: 1280px) and (min-width: 800px){
+    #calocho{
+        left: 75%;
+    }
+
+    .informacion2{
+        position: relative;
+        bottom: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px){
+    .container-portada{
+        width: 100%;
+    }
+
+    
+    #info{
+        width: 450px;
+        height: 350px;
+        left: 40%;
+        bottom: 10vh;
+    }
+
+    .informacion{
+        bottom: 55px;
+        width: 650px;
+        height: 70px;
+    }
+
+    #calocho{
+        width: 350px;
+        height: 350px;
+    }
+
+    .informacion2 p{
+        width: 1050px;
+        height: 90px;
+    }
+
+    .link{
+        width: 350px;
+        height: 250px;
+    }
+
+    .link button{
+        position: relative;
+        top: 6vh;
+        width: 100%;
+    }
+}
