@@ -9,7 +9,7 @@ body{
   
   .formulario{
     background-color: #fbfbfb;
-    height: 85vh;
+    height: auto;
     width:23.5vw;
     padding:10px 10px 10px 30px;
     margin-left:30%;
