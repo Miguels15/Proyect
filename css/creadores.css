@@ -9,7 +9,7 @@ body{
     font-family: sans-serif;
     letter-spacing: 0.03em;
     line-height: 1.6;
-    background-color: #FAEBE0;
+    background-color: #FAEBE0 !important;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -23,20 +23,21 @@ body{
 
 .container{
     border: solid 1px #000;
-    width: 100%;
-    max-width: 1200px;
+    width: 100% !important;
+    max-width: 1200px !important;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
     background-color: #fff;
+    margin-bottom: 8rem;
     
 }
 .titul{
-    width: 95%;
+    width: 90% !important;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1200px !important;
     height: 15vh;
     display: flex;
     flex-wrap: wrap;
@@ -69,8 +70,8 @@ body{
 }
 
 .container .card img{
-    width: 300px;
-    height: 220px;
+    width: 320px;
+    height:300px;
 }
 
 
@@ -140,8 +141,8 @@ h1{
 @media screen and (max-width: 900px){
  
     .titul{
-        width: 90%;
-        max-width: 1200px;
+        width: 90% !important;
+        max-width: 1200px !important;
         height: auto;
         align-items: center;
         display: flex;
@@ -152,8 +153,8 @@ h1{
         margin-top: 10em;
     }
     .container{
-        width: 90%;
-        max-width: 1200px;
+        width: 90% !important;
+        max-width: 1200px !important;
         height: auto;
         display: flex;
         flex-wrap: wrap;

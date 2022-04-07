@@ -34,9 +34,8 @@ body{
 .contentCard{
     position: relative;
     width: 60%;
-    height: 65vh;
+    height: 75vh;
     margin: 2vw auto;
-    background: rgba(255, 255, 255, 2.5);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     display: flex;
@@ -59,14 +58,41 @@ body{
 
 .contentCard .con2 img{
     background-color: antiquewhite;
-    width: 77%;
+    width: 75%;
     margin-top: 4%;
-    margin-left: 5%;
+    margin-left: 12.5%;
     border-radius: 15px;
     height: 45vh;
-    margin: 20px 10px 20px 100px;
+}
+.container-portada{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../img/Finca2\ resized.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    background-repeat: no-repeat;
 }
 
+
+.portada h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.portada p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+}
 
 .containerp{
     width: 100%;
@@ -126,6 +152,9 @@ body{
 .container{
     background-color: aliceblue;
 }
+
+
+
 .con2 p{
     color: white;
     padding-left: 10px;
@@ -141,13 +170,7 @@ body{
     border-radius: 15px;
     background-color: #2A7E46;
 }
-.contentCard .con2 img{
-    background-color: antiquewhite;
-    width: 31.6vh;
-    height: 45vh;
-    margin-left: 1px;
-    
-}
+
 
 .calocho{
     width: 85%;
@@ -167,8 +190,32 @@ body{
 .calocho img{
     border-radius: 15px;
     margin-top: 10px;
+    margin-left: 17.5%;
     height: 25vh;
-    width: 30vh;
-    padding-left: 9px;
+    width: 65%;
 }
 }
+
+
+@media screen and (max-width: 667px){
+    
+    .contentCard{
+        height: 100vh;
+        padding-bottom: 5rem;
+    }
+    
+    .contentCard .con2 img{
+        margin-top: 4rem;
+        width: 50%;
+    }
+
+    .calocho{
+        padding-bottom: 4rem;
+    }
+
+    .contentCard .con2 img{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
