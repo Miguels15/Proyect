@@ -124,6 +124,9 @@ body{
 .container{
     background-color: aliceblue;
 }
+
+
+
 .con2 p{
     color: white;
     padding-left: 10px;
@@ -159,9 +162,9 @@ body{
 .calocho img{
     border-radius: 15px;
     margin-top: 10px;
-    margin-left: 27.5%;
+    margin-left: 17.5%;
     height: 25vh;
-    width: 45%;
+    width: 65%;
 }
 }
 
@@ -175,9 +178,16 @@ body{
     
     .contentCard .con2 img{
         margin-top: 4rem;
+        width: 50%;
     }
 
     .calocho{
         padding-bottom: 4rem;
     }
+
+    .contentCard .con2 img{
+        width: 80%;
+        margin-left: 10%;
+    }
 }
+
