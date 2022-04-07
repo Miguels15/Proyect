@@ -191,7 +191,7 @@ body{
   width: 100%;
   color: white;
   font-size: 13px;
-  margin-top: 70%;
+  margin-top: 1000px; 
 }
 .principalfooter2 h3{
   padding-top: 10px;
@@ -265,7 +265,10 @@ body{
     text-align: center;
   } 
   
-
+  .principalfooter2{
+    
+    margin-top: 1400px; 
+  } 
 }
 
 
