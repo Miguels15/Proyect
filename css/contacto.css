@@ -7,6 +7,8 @@ body{
     background-color: #FAEBE0;
   }
   
+ 
+
   .formulario{
     background-color: #fbfbfb;
     height: auto;
@@ -145,7 +147,7 @@ body{
   }
   
   
-  h1{
+  body h1{
     font-size: 39px;  
     text-align: left; 
     padding-bottom: 20px; 
@@ -153,7 +155,7 @@ body{
   }
   
   
-  h3{
+  body h3{
     font-size: 16px; 
     padding-bottom: 30px;
     color: #CEAB93;
@@ -161,7 +163,7 @@ body{
   }
   
   
-  p{
+  body p{
     font-size: 14px; 
     color: #AD8B73; 
   }
@@ -182,6 +184,51 @@ body{
     transition: all ease-in-out 1s;
 
 }
+
+.principalfooter2{
+  background-color: #202020;
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-size: 13px;
+  margin-top: 70%;
+}
+.principalfooter2 h3{
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif, Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  color: white;
+  font-size: 25px;
+}
+.principalfooter2 .integrantes2{
+  font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: white;
+}
+.secundariofooter2{
+  background-color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 13px;
+  padding-top: 0px;
+  float: left;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.texto2{
+  font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 8px;
+  padding:  10px 20px 10px 20px;
+  float: right;
+}
+
 @media screen and (max-width: 900px){
   .formulario{
     background-color: #fbfbfb;
@@ -220,4 +267,5 @@ body{
   
 
 }
+
 

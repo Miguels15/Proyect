@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+    body{
+      font-family: 'Noto Sans', sans-serif;
+      background-color: #FAEBE0;    
+    }
+ 
+   
+.portada h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.portada p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.menu{
+    color: white;
+}
+
+div.carousel-inner{
+    background-color: black;
+}
+
+div.carousel-inner img{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    opacity: 0.50;
+}
+#carouselExampleIndicators{
+    margin-top: 1em;
+}
+.portada{
+    position:absolute;
+    z-index: 1;
+    margin: 10% 25% 0% 25%;
+    text-align: center;
+}
+
+
+
+
+

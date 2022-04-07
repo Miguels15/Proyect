@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+.principalfooter{
+  background-color: #CEAB93;
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-size: 13px;
+  margin-top: 80px;
+}
+.principalfooter h3{
+  padding-top: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+.principalfooter .integrantes{
+  font-family: 'Noto Sans', sans-serif;
+  padding-left: 20px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.secundariofooter{
+  background-color: #704e37;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 13px;
+  padding-top: 0px;
+  float: left;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.texto{
+  font-family: 'Noto Sans', sans-serif;
+ 
+  margin-bottom: 8px;
+  padding:  10px 20px 10px 20px;
+  float: right;
+}
+
+
+
+
