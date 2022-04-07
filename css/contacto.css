@@ -186,7 +186,7 @@ body{
 }
 
 .principalfooter2{
-  background-color: #202020;
+  background-color: #CEAB93;
   position: absolute;
   width: 100%;
   color: white;
@@ -195,21 +195,21 @@ body{
 }
 .principalfooter2 h3{
   padding-top: 10px;
-  font-family: 'Ubuntu', sans-serif, Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   letter-spacing: 1px;
   padding-left: 20px;
   color: white;
   font-size: 25px;
 }
 .principalfooter2 .integrantes2{
-  font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   padding-left: 20px;
   font-size: 15px;
   margin-bottom: 5px;
   color: white;
 }
 .secundariofooter2{
-  background-color: black;
+  background-color: #704e37;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -222,7 +222,7 @@ body{
   justify-content: space-between;
 }
 .texto2{
-  font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   color: white;
   margin-bottom: 8px;
   padding:  10px 20px 10px 20px;
