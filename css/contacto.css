@@ -248,8 +248,7 @@ body{
   .maps_container{
     width: 100%;
     position: relative;
-    
-    margin-top:60em;
+    margin-top:65em;
     height: 50vh;
     display: block;
     margin-bottom: 5rem;
@@ -267,7 +266,7 @@ body{
   
   .principalfooter2{
     
-    margin-top: 1400px; 
+    margin-top: 1700px; 
   } 
 }
 
