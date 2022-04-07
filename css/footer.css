@@ -4,8 +4,8 @@
   position: absolute;
   width: 100%;
   color: white;
+  bottom: 0px;
   font-size: 13px;
-  bottom: 0;
 }
 .principalfooter h3{
   padding-top: 10px;
