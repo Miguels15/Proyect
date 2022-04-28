@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f1ee;
+}
+.bg-total{
+    background-color:/* rgb(196, 190, 190)*/  rgb(227, 241, 253);
+    width: 90%;
+    margin: 2rem auto 10vh;
+}
+
+
+
+.titulos-G{
+    padding: 1.5em;
+    font-size: 2em;
+}
+
+.hr1{
+    background-color: rgb(75, 255, 231);
+    padding: 0.1em;
+    width: 15%;
+    margin-bottom: 0.5em;
+}
+
+.hr2{
+    background-color: red;
+    padding: 0.1em;
+    width: 35%;
+}
+
+/*css  cartas*/
+.container{
+    position: relative;
+    width: 90%;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -1vw 0 2;
+    background-color:  #FAEBE0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contentCard{
+    position: relative;
+    width: 30%;
+    height: 35vh;
+    margin: 2vw auto;
+    background-color: aqua;
+    background: rgba(255, 255, 255, 2.5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    
+    
+}
+
+.con2{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.contentCard .con2 img{
+    background-color: antiquewhite;
+       
+        width: 90%;
+        height: 90%;
+        margin-top: 4%;
+        margin-left: 5%;
+    border-radius: 15px;
+}
+
+ .con2:hover{
+    background-color: rgb(233, 227, 221);
+}
+
+#cafe{
+    background-color: #CEAB93;
+}
+#verde{
+    background-color: #36A172;
+}
+@media screen and (max-width: 900px){
+.container{
+    position: relative;
+    width: 90%;
+    display: block;
+    justify-content: center;
+    
+    margin: 2vw 0 2;
+    background-color: aliceblue;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contentCard{
+    position: relative;
+    width: 85%;
+    height: 35vh;
+    margin: 5vw auto;
+    background-color: aqua;
+    background: rgba(255, 255, 255, 2.5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    overflow: hidden; 
+    
+
+}
+
+.titulos-G{
+    margin-top: 25%;
+    padding: 1.5em;
+    font-size: 2em;
+        
+}
+}
+@media screen and (max-width: 640px){
+    .contentCard{
+        position: relative;
+        width: 85%;
+        height: 75vh;
+        margin: 5vw auto;
+        background-color: aqua;
+        background: rgba(255, 255, 255, 2.5);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(10px);
+        overflow: hidden; 
+        
+    
+    } 
+    .contentCard .con2 img{
+        background-color: antiquewhite;
+           
+            width: 90%;
+            height: 90%;
+            margin-top: 4vh;
+            margin-left: 5%;
+        border-radius: 15px;
+    }
+    
+}
+@media screen and (max-width: 896px){
+    .contentCard{
+        position: relative;
+        width: 85%;
+        height: 80vh;
+        margin: 5vw auto;
+        background-color: aqua;
+        background: rgba(255, 255, 255, 2.5);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(10px);
+        overflow: hidden; 
+    
+    } 
+    .contentCard .con2 img{
+        background-color: antiquewhite;
+           
+            width: 90%;
+            height: 90%;
+            margin-top: 4vh;
+            margin-left: 5%;
+        border-radius: 15px;
+    }
+    
+}
+@media screen and (max-width: 915px){
+    .container{
+    position: relative;
+    width: 90%;
+    display:flex;
+    justify-content: center;
+    margin: 5vh;
+    background-color: aliceblue;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bg-total{
+    padding-bottom: 3rem;
+}
+}
+@media screen and (max-width: 1180px){
+    .container{
+        display: flex;
+    }
+    .bg-total{
+        padding-bottom: 3rem;
+    }
+
+}
+@media screen and (max-width:1325px){
+    .container{
+        display: flex;
+    }
+    .bg-total{
+        padding-bottom: 3rem;
+    }
+}
+@media screen and (max-width:1920px){
+    .container{
+        display: flex;
+    }
+    .bg-total{
+        padding-bottom: 3rem;
+    }
+}
