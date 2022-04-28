@@ -8,6 +8,7 @@ body{
 }
 .container h1{
     margin: 15px;
+    padding-top: 30px;
     text-align: center;
     font-weight: bold;
     color: #704E37;
