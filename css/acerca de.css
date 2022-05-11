@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Lato:wght@100&family=Oswald:wght@200&family=Roboto:wght@300;400&family=Water+Brush&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Img carrusel*/
+#carouselExampleIndicators{
+    display: none;
+}
+.portada h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 75px;
+    font-weight: 500;
+    font-family: 'Square Peg', cursive;
+}
+.portada p{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: 'Water Brush', cursive;
+}
+.container-portada{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../img/Finca2\ resized.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+}
+/*Tarjetas*/
+.section-container{
+    background-color: #FAEBE0;
+    width: 98%;
+    margin-left: 1%;
+    margin-bottom: 2rem;
+    position: relative;
+    margin-top: 2rem;
+    padding: 1vh;
+}
+.container-img{
+    margin-top: 2rem;
+    display: block;
+    width: 80vh;
+    height: 70vh;
+    background-color: #2a7e46b5;
+    margin: 30px auto;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.container-img p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 1rem;
+}
+.container-img img{
+    margin-top: 1rem;
+    width: 60vh;
+    margin-left: 6rem;
+    height: 45vh;
+    border-radius: 1rem;
+    
+}
+.container-img-perro{
+    margin-top: 2rem;
+    display: flex;
+    width: 100vh;
+    height: 45vh;
+    background-color: #2a7e46b5;
+    margin: 30px auto;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.container-img-perro p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 1rem;
+    margin-top: 8rem;
+}
+.container-img-perro img{
+    width: 50vh;
+    height: 40vh;
+    border-radius: 1rem;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+/*RESPONSIVE*/
+
+@media screen and (max-width:800px){
+    .container-img{
+        margin-top: 2rem;
+        display: block;
+        width: 40vh;
+        height: 53rem; 
+    }
+    .container-img p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img img{
+        margin-top: 1rem;
+        width: 36.5vh;
+        height: 45vh;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    /*sig*/
+    .container-img-perro{
+        width: 40vh;
+        height: 90vh;
+        display: block;
+    }
+    .container-img-perro p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img-perro img{
+        width: 38vh;
+        height: 40vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+       
+    }
+}
+@media screen and (max-width:600px){
+    .container-img{
+        margin-top: 2rem;
+        display: block;
+        width: 50vh;
+        height: 45rem; 
+    }
+    .container-img p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img img{
+        margin-top: 1rem;
+        width: 45vh;
+        height: 45vh;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    /*sig*/
+    .container-img-perro{
+        width: 50vh;
+        height: 96vh;
+        display: block;
+    }
+    .container-img-perro p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img-perro img{
+        width: 40vh;
+        height: 40vh;
+       
+    }
+}
+@media screen and (max-width:900px){
+    .container-img{
+        margin-top: 2rem;
+        display: block;
+        width: 40vh;
+        height: 53rem; 
+    }
+    .container-img p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img img{
+        margin-top: 1rem;
+        width: 36.5vh;
+        height: 45vh;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    /*sig*/
+    .container-img-perro{
+        width: 40vh;
+        height: 45em;
+        display: block;
+    }
+    .container-img-perro p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img-perro img{
+        width: 38vh;
+        height: 40vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+       
+    }
+}
+@media (orientation: landscape) {
+    .container-img{
+        margin-top: 2rem;
+        display: block;
+        width: 80vh;
+        height: 75vh;
+        background-color: #2a7e46b5;
+        margin: 30px auto;
+        border-radius: 2rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+    .container-img p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img img{
+        margin-top: 1rem;
+        width: 60vh;
+        margin-left: 6rem;
+        height: 45vh;
+        border-radius: 1rem;
+        
+    }
+    .container-img-perro{
+        margin-top: 2rem;
+        display: flex;
+        width: 100vh;
+        height: 45vh;
+        background-color: #2a7e46b5;
+        margin: 30px auto;
+        border-radius: 2rem;
+        overflow: hidden;
+    }
+    .container-img-perro p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+        margin-top: 5rem;
+    }
+    .container-img-perro img{
+        width: 50vh;
+        height: 40vh;
+        border-radius: 1rem;
+        float: right;
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-height:600px){
+    .container-img{
+        margin-top: 2rem;
+        display: block;
+        width: 35em;
+        height: 40rem; 
+    }
+    .container-img p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img img{
+        margin-top: 1rem;
+        width: 33em;
+        height:95vh;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    /*sig*/
+    .container-img-perro{
+        width: 35em;
+        height: 40em;
+        display: block;
+    }
+    .container-img-perro p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img-perro img{
+        width: 33em;
+        height: 100vh;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
