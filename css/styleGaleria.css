@@ -235,11 +235,11 @@ body{
     }
     
 }
-@media screen and (max-height: 360px){
+@media screen and (max-width: 600px){
     .contentCard{
         position: relative;
         width: 85%;
-        height: 90vh;
+        height: 40vh;
         margin: 5vw auto;
         background-color: aqua;
         background: rgba(255, 255, 255, 2.5);
@@ -250,17 +250,15 @@ body{
         align-items: center;
         backdrop-filter: blur(10px);
         overflow: hidden; 
-        
-    
     } 
+
     .contentCard .con2 img{
-        background-color: antiquewhite;
-           
+            background-color: antiquewhite;
             width: 90%;
-            height: 75vh;
+            height: 30vh;
             margin-top: 4vh;
             margin-left: 5%;
-        border-radius: 15px;
+            border-radius: 15px;
     }
     
 }
