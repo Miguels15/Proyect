@@ -95,6 +95,56 @@
     margin-right: 2rem;
 }
 /*RESPONSIVE*/
+@media screen and (max-width:1366px) {
+    .container-img{
+        margin-top: 2rem;
+        display: block;
+        width: 80vh;
+        height: 40em;
+        background-color: #2a7e46b5;
+        margin: 30px auto;
+        border-radius: 2rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+    .container-img p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .container-img img{
+        margin-top: 1rem;
+        width: 60vh;
+        margin-left: 4rem;
+        height: 45vh;
+        border-radius: 1rem;
+        
+    }
+    .container-img-perro{
+        margin-top: 2rem;
+        display: flex;
+        width: 100vh;
+        height: 25em;
+        background-color: #2a7e46b5;
+        margin: 30px auto;
+        border-radius: 2rem;
+        overflow: hidden;
+    }
+    .container-img-perro p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 1rem;
+        margin-top: 3rem;
+    }
+    .container-img-perro img{
+        width: 50vh;
+        height: 40vh;
+        border-radius: 1rem;
+        float: right;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+}
 @media screen and (max-width:1400px){
     .container-img{
         margin-top: 2rem;
@@ -290,7 +340,7 @@
         margin-top: 2rem;
         display: flex;
         width: 100vh;
-        height: 23em;
+        height: 30em;
         background-color: #2a7e46b5;
         margin: 30px auto;
         border-radius: 2rem;
@@ -307,10 +357,11 @@
         height: 40vh;
         border-radius: 1rem;
         float: right;
-        margin-top: 1rem;
+        margin-top: 2rem;
         margin-right: 2rem;
     }
 }
+
 @media screen and (max-height:600px){
     .container-img{
         margin-top: 2rem;
