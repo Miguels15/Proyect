@@ -13,9 +13,6 @@ body{
     width: 90%;
     margin: 2rem auto 10vh;
 }
-
-
-
 .titulos-G{
     padding: 1.5em;
     font-size: 2em;
@@ -261,4 +258,57 @@ body{
             border-radius: 15px;
     }
     
+}
+@media(orientation:landscape){
+    .container{
+        position: relative;
+        width: 90%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: -1vw 0 2;
+        background-color:  #FAEBE0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contentCard{
+        position: relative;
+        width: 30%;
+        height: 35vh;
+        margin: 2vw auto;
+        background-color: aqua;
+        background: rgba(255, 255, 255, 2.5);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(10px);
+        overflow: hidden;
+    }
+    .con2{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 95%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+    }
+    .contentCard .con2 img{
+        background-color: antiquewhite;
+        width: 90%;
+        height: 90%;
+        margin-top: 4%;
+        margin-left: 5%;
+        border-radius: 15px;
+    }
+     .con2:hover{
+        background-color: rgb(233, 227, 221);
+    }
+    #cafe{
+        background-color: #CEAB93;
+    }
+    #verde{
+        background-color: #36A172;
+    }
 }
