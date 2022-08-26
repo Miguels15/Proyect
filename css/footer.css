@@ -1,45 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Lato:wght@100&family=Oswald:wght@200&family=Roboto:wght@300;400&family=Square+Peg&family=Water+Brush&display=swap');
-.principalfooter{
-  background-color: #CEAB93;
-  position: absolute;
-  width: 100%;
-  color: white;
-  font-size: 13px;
-}
-.principalfooter h3{
-  padding-top: 10px;
-  font-family: 'Noto Sans', sans-serif;
-  letter-spacing: 1px;
-  padding-left: 20px;
-  font-size: 25px;
-}
-.principalfooter .integrantes{
-  font-family: 'Noto Sans', sans-serif;
-  padding-left: 20px;
-  font-size: 15px;
-  margin-bottom: 5px;
-}
-.secundariofooter{
-  background-color: #704e37;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  font-size: 13px;
-  padding-top: 0px;
-  float: left;
-  font-size: 15px;
-  display: flex;
-  justify-content: space-between;
-}
-.texto{
-  font-family: 'Noto Sans', sans-serif;
- 
-  margin-bottom: 8px;
-  padding:  10px 20px 10px 20px;
-  float: right;
-}
 
+.container-footer{
+      width: 100%;
 
-
-
+      padding: 40px 0;
+      background: #fff;
+      margin-top: 60px;
+      animation: arriba 1.5s ease-in;
+    }
+    
+    .container-footer footer{
+      max-width: 1200px;
+      margin: auto;
+    }
+   
+    .container-footer footer .redes-footer{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    
+    .container-footer footer .redes-footer .icon-redes-footer{
+      font-size: 20px;
+      margin: 20px;
+      background: #efefef;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      color: #a2a2a2;
+    }
+    
+    footer .redes-footer .fa-facebook-f:hover{
+      background: #41579A;
+      color: #fff;
+    }
+    
+    footer .redes-footer .fa-twitter:hover{
+      background: #257bdd;
+      color: #fff;
+    }
+    
+    footer .redes-footer .fa-instagram:hover{
+      background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+      color: #fff;
+    }
+    
+    
+    .container-footer footer hr{
+      margin-top: 20px;
+      border: none;
+      height: 2px;
+      background: #c0c0c07a;
+    }
+    
+    .container-footer h4{
+      text-align: center;
+      margin-top: 40px;
+      color: #8e8e8e;
+      font-weight: 500;
+    }

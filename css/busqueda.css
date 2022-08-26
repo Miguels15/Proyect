@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+    background: rgb(242, 244, 248);
+}
+nav.navbar{
+	background-color: #4297A0 !important;
+}
+nav.navbar ul li a{
+    color: #fff !important;
+}
+
+
+.title{
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    animation: arriba 0.5s ease-in;
+}
+
+.input{
+	border: 0;
+	outline: none;
+	color: rgb(48, 153, 159);
+	font-weight: bold;
+}
+
+.search_wrap{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    animation: arriba 0.5s ease-in;
+}
+
+.search_wrap .search_box{
+	position: relative;
+	width: 700px;
+	height: 55px;
+    
+}
+
+.search_wrap .search_box .input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px;
+	border-radius: 3px;
+	font-size: 18px;
+    background: rgb(212, 206, 207);
+
+}
+
+.search_wrap .search_box .btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 55px;
+	height: 100%;
+	background: rgb(255, 127, 127);
+	z-index: 1;
+	cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover{
+	background: rgb(253, 102, 102);
+}
+
+.search_wrap .search_box .btn.btn_common .fas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 20px;
+}
+
+.search_wrap.search_wrap .search_box .btn{
+	left: 0;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.search_wrap.search_wrap .search_box .input{
+	padding-left: 80px;
+}
+
+.background-cards{
+    width: 100%;
+    background-image: linear-gradient(rgb(242, 244, 248), rgb(194, 193, 193));
+	margin-bottom: 2.5rem;
+	
+}
+
+.card{
+	width: 25%;
+	margin: 50px 20px 20px 20px;
+    margin-left: 5.5%;
+	padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	animation: arriba 1.2s ease-in;
+}
+
+.card img{
+	width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card hr{
+    width: 222px;
+    padding: 2.5px;
+	background: rgb(253, 102, 102);
+    margin-bottom: 5px;
+	border: none;
+}
+
+.card a{
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 0px;
+	color: rgb(48, 153, 159);
+}
+
+.card a:nth-child(even){
+	padding: 10px 20px;
+	background-color: rgb(253, 102, 102);
+	border-radius: 40px;
+	float: right;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+
+@media screen and (max-width: 1070px ) {
+	
+	.card hr{
+		width: 220px;
+	}
+
+    .card{
+        width: 40%;
+        margin: 0px 0px 0px 70px ;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+	.card hr{
+		width: 216px;
+	}
+	.container-footer{
+		margin-top: 1.5em;
+	}
+    .card{
+        width: 90%;
+		display: block;
+		margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@keyframes arriba{
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+.container-footer{
+	width: 100%;
+	padding: 40px 0;
+	background: #fff;
+	margin-top: 2em;
+	animation: arriba 1.5s ease-in;
+  }
+  
+  .container-footer footer{
+	max-width: 1200px;
+	margin: auto;
+  }
+ 
+  .container-footer footer .redes-footer{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+  }
+  
+  
+  .container-footer footer .redes-footer .icon-redes-footer{
+	font-size: 20px;
+	margin: 20px;
+	background: #efefef;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	color: #000;
+  }
+  
+  footer .redes-footer .fa-facebook-f:hover{
+	background: #41579A;
+	color: #fff;
+  }
+  
+  footer .redes-footer .fa-twitter:hover{
+	background: #257bdd;
+	color: #fff;
+  }
+  
+  footer .redes-footer .fa-instagram:hover{
+	background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+	color: #fff;
+  }
+  
+  
+  .container-footer footer hr{
+	margin-top: 20px;
+	border: none;
+	height: 2px;
+	background: #c0c0c07a;
+  }
+  
+  .container-footer h4{
+	text-align: center;
+	margin-top: 40px;
+	color: #000;
+	font-weight: 500;
+  }
